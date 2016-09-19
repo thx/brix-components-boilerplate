@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="//g-assets.daily.taobao.net/thx/brix-release/require-config-css.js"></script>
+        <style>body {}</style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-xs-6">
+                <h3>示例1</h3>
+                <div bx-name="hello"></div>
+            </div>
+            <div class="col-xs-6">
+                <h3>示例2</h3>
+                <div bx-name="hello"></div>
+            </div>
+        </div>
+        <script>
+            require(['brix/loader'], function(Loader) {
+                window.Loader = Loader
+                Loader.boot(function() {
+                    // everything is ok.
+                })
+            })
+        </script>
+        <script>
+            require(['brix/loader'], function(Loader) {
+                Loader.boot(function() {
+                    var instances = Loader.query('hello')
+                    instances.on('change.hello', function(event, extra) {
+                        console.log(
+                            event.type,
+                            event.namespace,
+                            extra
+                        )
+                    })
+                })
+            })
+        </script>
+    </body>
+</html>

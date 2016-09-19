@@ -1,0 +1,42 @@
+{
+  "name": "brix-components",
+  "version": "0.0.5",
+  "description": "brix-components",
+  "main": "config.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuysoft/brix-components"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuysoft/brix-components/issues"
+  },
+  "homepage": "https://github.com/nuysoft/brix-components",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.0",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-csslint": "^0.3.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-mocha-phantomjs": "^0.11.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-shell": "^0.5.2",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "lodash": "^4.14.1",
+    "through2": "^2.0.1",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {}
+}

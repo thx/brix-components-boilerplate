@@ -1,0 +1,21 @@
+{
+  "name": "brix-components",
+  "version": "0.0.5",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "brix-loader":  "master",
+    "brix-base":    "master",
+    "brix-event":   "master",
+    "requirejs":    "~2.1.20",
+    "require-css":  "~0.1.8",
+    "jquery":       "1.x.x",
+    "underscore":   "~1.7.0",
+    "bootstrap":    "3.3.5",
+    "moment":       "~2.10.6",
+    "accountingjs": "~0.3.2",
+    "vue":          "~1.0.8"
+  },
+  "devDependencies": {}
+}
